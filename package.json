@@ -22,9 +22,7 @@
     "coffeelint": "./bin/coffeelint"
   },
   "dependencies": {
-    "browserify": "~3.37",
-    "coffee-script": "~1.7",
-    "coffeeify": "~0.6.0",
+    "coffee-script": "git://github.com/alubbe/coffee-script.git#efca2861a65ec29ddf7304d6cb1175d1ec165d63",
     "glob": "^4.0.0",
     "ignore": "^2.2.15",
     "optimist": "^0.6.1",
@@ -46,7 +44,6 @@
     "posttest": "npm run lint",
     "prepublish": "cake prepublish",
     "publish": "cake publish",
-    "install": "cake install",
     "lint": "cake compile && ./bin/coffeelint .",
     "lint-csv": "cake compile && ./bin/coffeelint --csv .",
     "lint-jslint": "cake compile && ./bin/coffeelint --jslint .",
