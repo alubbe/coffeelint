@@ -22,7 +22,7 @@
     "coffeelint": "./bin/coffeelint"
   },
   "dependencies": {
-    "coffee-script": "git://github.com/alubbe/coffee-script.git#efca2861a65ec29ddf7304d6cb1175d1ec165d63",
+    "coffee-script": "git://github.com/alubbe/coffee-script.git#5950d6328d38e2c548bec6438c8f18552c9d06cd",
     "glob": "^4.0.0",
     "ignore": "^2.2.15",
     "optimist": "^0.6.1",
